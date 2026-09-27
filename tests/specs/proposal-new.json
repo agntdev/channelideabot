@@ -5,9 +5,12 @@
       {
         "expect": [
           {
+            "method": "answerCallbackQuery"
+          },
+          {
             "method": "sendMessage",
             "payload": {
-              "text": "Start a new proposal submission flow (conversational)"
+              "text": "Send your proposal text and any photos. You can add up to 10 photos."
             }
           }
         ],
